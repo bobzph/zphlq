@@ -94,7 +94,10 @@ a{
     display: inline-block;
     width: 100%;
     height: 100%;
+    font-weight: bold;
+    /*color:red;*/
     transition: transform .3s;
+    letter-spacing: 1px;
 }
 .dh:hover{
     color:#76B852;
@@ -236,11 +239,7 @@ a{
     background: red;
     float: left;
 }
-.xiugai{
-    /*background:#76B852;*/
-    background: url(../img/aa1.jpg) no-repeat;
-    /*background-size:;*/
-}
+.
  /*about me*/
 .about{
     color: #fff;
@@ -252,14 +251,100 @@ a{
     letter-spacing: 1px;
     line-height: 60px;
 }
+
+/*aboutme*/
+
+
+
+
 .er-le{
-    height: 300px;
-    /*background:yellow;*/
+    height: 350px;
+    background:#76B852;
+    color:#fff;
 }
+.er-le p:nth-child(1){
+   /*margin:  0 auto;*/
+    background: #323B43;
+    width: 180px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.er-le p .tubiao{
+    display: block;
+    width: 40px;
+    height: 100%;
+    /*background-color: red;*/
+    float: left;
+    line-height: 40px;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 10px;
+}
+.er-le p .tubiao2{
+    display: block;
+    width: 90px;
+    height: 100%;
+    /*background-color: red;*/
+    float: left;
+    line-height: 40px;
+    font-weight: bold;
+    margin-left: 40px;
+
+}
+
+
+.myjieshao span{
+    display: block;
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 32%;
+    margin-bottom: 10px;
+    /*background: red;*/
+}
+
+
+.mytouxiang{
+    width:150px;
+    height: 150px;
+    /*background: #00b3ee;*/
+    /*margin: 0 auto;*/
+    border-radius: 50%;
+    /*margin-top: -40px;*/
+    /*margin-left: 125px;*/
+    /*background: red;*/
+    margin: 0 auto;
+    margin-top: 65px;
+    margin-left: 25%;
+    float: left;
+}
+
 .er-ri{
-    height: 300px;
-    /*background: blue;*/
+    height: 350px;
+    background:#76B852;
+    /*padding: 30px;*/
+
 }
+.er-ri .er-nei{
+    width:90%;
+    height: 100%;
+    /*background: #ccc;*/
+    margin: 0 auto;
+}
+.er-ri .er-nei p{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    /*background: red;*/
+    font-size: 18px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:#fff;
+    line-height: 20px;
+}
+
 
 
 
@@ -412,6 +497,11 @@ a{
 }
 .zuopin .zp6{
     background:url(../img/lvapp.jpg) no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.zuopin .zp8{
+    background:url(../img/rz.jpg) no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
@@ -619,6 +709,21 @@ a{
         margin:0 auto;
 
     }
+    .myjieshao{
+        width: 100px;
+        height: 200px;
+        /*background: red;*/
+        float: left;
+        padding-top: 30px;
+        margin-left: 14%;
+    }
+    .myjieshao span{
+        display: block;
+        margin-top: 30px;
+        /*text-align: center;*/
+        font-weight: bold;
+        /*background: red;*/
+    }
 }
 @media screen and (min-width:1000px){
     .tijiao1{
@@ -741,4 +846,22 @@ label{
     color:red;
     text-align: center;
 }
+
+
+
+/*.myjieshao{*/
+    /*width: 100px;*/
+    /*height: 200px;*/
+    /*!*background: red;*!*/
+    /*float: left;*/
+   /*margin: 0 auto;*/
+/*}*/
+/*.myjieshao span{*/
+    /*display: block;*/
+    /*margin-top: 30px;*/
+    /*text-align: center;*/
+    /*font-weight: bold;*/
+/*}*/
+
+
 
